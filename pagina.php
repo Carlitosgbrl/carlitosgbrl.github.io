@@ -1,5 +1,5 @@
 <?php
-    $mysqliConect=new mysqli('localhost','',"pagina");
+    $mysqliConect=new mysqli('localhost','root','',"pagina");
     if (!$mysqliConect) {
         echo "Error al conectar la base de datos";
     }
